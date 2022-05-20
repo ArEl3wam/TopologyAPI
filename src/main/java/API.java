@@ -83,6 +83,12 @@ public class API {
             return null;
         return t1.getComponents();
     }
+    public static void deleteTopology (String topologyID){
+        for(topology t: topologies){
+            if (t.getId()==topologyID)
+                topologies.remove(t);
+        }
+    }
 
     public static List<netlist> queryDevicesWithNetlistNode(String topologyId, String netlistKey){
         List<device> devices = devicesQuery(topologyId);
