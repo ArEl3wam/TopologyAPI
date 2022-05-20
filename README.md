@@ -1,6 +1,6 @@
 # Welcome to TopologyAPI!
 
-ToplogyApi is Library built in java to provide the following functionalities to your Topology
+ToplogyApi is Library built in java using Maven to provide the following functionalities to your Topology
 
 
 # Supported Functions
