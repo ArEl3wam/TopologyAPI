@@ -1,0 +1,1 @@
+{"id":"topology1","devices":[{"type":"capcitor","id":"cap1","name":"capcitorGamd","_default":10.0,"min":0.0,"max":100.0,"netlists":[{"key":"soso","value":"s1"},{"key":"dodo","value":"d1"}]}]}
